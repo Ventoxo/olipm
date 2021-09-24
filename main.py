@@ -187,3 +187,17 @@ def test_bitwise_int():
     assert ~-10 == 9
 
 
+integer = 6
+def test_check_int(integer):
+    '''
+        Description: we need to know that is int
+
+        Steps:
+        1. check type of integer
+
+        Expectations:
+        type of integer == int
+    '''
+    assert type(integer) == int
+
+
